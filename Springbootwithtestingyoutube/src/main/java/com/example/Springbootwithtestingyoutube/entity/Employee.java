@@ -12,9 +12,8 @@ import lombok.*;
 @Setter
 @ToString
 @Entity
-@Table(name="myemp")
+@Table(name="empty101")
 public class Employee {
-
   @Id
   @GeneratedValue
   private Integer id;
